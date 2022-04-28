@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 97vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* shorthand - background
+            color > image > position > repeat > (size)
+            > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
             background-size: cover;
         }
 
         main {
             background-color: white ;
-            width: 400px;
+            max-width: 600px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -28,6 +37,9 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquam, aut minima similique neque dolorum, tenetur veniam provident sunt aperiam id molestiae pariatur quos sint iste delectus, fugiat facere est perspiciatis aspernatur! Omnis rem sed cum illo eveniet, illum provident consequatur animi nesciunt. Reiciendis eos tempora accusamus veniam expedita quasi, enim, reprehenderit repellendus vel fugiat perferendis totam atque quae quo quis saepe voluptates? Impedit enim autem rem eveniet ipsam eum dolor. Exercitationem, accusantium magni ipsam natus deserunt minus quia magnam necessitatibus, ullam blanditiis, explicabo tempora. Voluptas est, tempora eaque et expedita ipsa explicabo velit aut dignissimos corrupti obcaecati. Non, autem?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquam, aut minima similique neque dolorum, tenetur veniam provident sunt aperiam id molestiae pariatur quos sint iste delectus, fugiat facere est perspiciatis aspernatur! Omnis rem sed cum illo eveniet, illum provident consequatur animi nesciunt. Reiciendis eos tempora accusamus veniam expedita quasi, enim, reprehenderit repellendus vel fugiat perferendis totam atque quae quo quis saepe voluptates? Impedit enim autem rem eveniet ipsam eum dolor. Exercitationem, accusantium magni ipsam natus deserunt minus quia magnam necessitatibus, ullam blanditiis, explicabo tempora. Voluptas est, tempora eaque et expedita ipsa explicabo velit aut dignissimos corrupti obcaecati. Non, autem?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquam, aut minima similique neque dolorum, tenetur veniam provident sunt aperiam id molestiae pariatur quos sint iste delectus, fugiat facere est perspiciatis aspernatur! Omnis rem sed cum illo eveniet, illum provident consequatur animi nesciunt. Reiciendis eos tempora accusamus veniam expedita quasi, enim, reprehenderit repellendus vel fugiat perferendis totam atque quae quo quis saepe voluptates? Impedit enim autem rem eveniet ipsam eum dolor. Exercitationem, accusantium magni ipsam natus deserunt minus quia magnam necessitatibus, ullam blanditiis, explicabo tempora. Voluptas est, tempora eaque et expedita ipsa explicabo velit aut dignissimos corrupti obcaecati. Non, autem?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquam, aut minima similique neque dolorum, tenetur veniam provident sunt aperiam id molestiae pariatur quos sint iste delectus, fugiat facere est perspiciatis aspernatur! Omnis rem sed cum illo eveniet, illum provident consequatur animi nesciunt. Reiciendis eos tempora accusamus veniam expedita quasi, enim, reprehenderit repellendus vel fugiat perferendis totam atque quae quo quis saepe voluptates? Impedit enim autem rem eveniet ipsam eum dolor. Exercitationem, accusantium magni ipsam natus deserunt minus quia magnam necessitatibus, ullam blanditiis, explicabo tempora. Voluptas est, tempora eaque et expedita ipsa explicabo velit aut dignissimos corrupti obcaecati. Non, autem?</p>
     </main>
 </body>
