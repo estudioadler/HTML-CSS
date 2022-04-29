@@ -8,6 +8,10 @@
     padding: 0px;
 }
 
+html body {
+    min-height: 100%
+}
+
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
@@ -24,22 +28,60 @@ header {
 
 header h1 {
     font-family: var(--fonte2);
+    font-variant: small-caps;
     font-size: 120px;
     color: white;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 header p {
     color: white;
     font-family: var(--fonte1);
+    padding-bottom: 50px;
 }
-header a {
+
+a {
     font-family: var(--fonte1);
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.normal {
+    font-family: var(--fonte3);
+    background-color: #fff;
+    color: #000;
+    font-size: 3em;
+    padding-left: 10vh;
+}
+
+.imagem {
+    font-family: var(--fonte3);
+    background-color: #000;
+    color: #fff;
+    font-size: 3em;
+    padding-left: 10vh;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+
+footer {
+    font-family: var(--fonte1);
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
